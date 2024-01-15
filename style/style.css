@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Nav-Bar Design */
+.web-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    width: 80%;
+    margin: 52px auto 49px auto;
+}
+
+.nav-item {
+    display: inline;
+    margin-left: 44px;
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    color: #FF5400;
+}
