@@ -10,8 +10,12 @@ body {
 .primary-button {
     border-radius: 8px;
     background: #FF5400;
-    padding: 15px 75px 15px 15px;
+    padding: 15px 45px 15px 30px;
     border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /* Nav-Bar Design */
@@ -71,7 +75,7 @@ h2 {
     margin-bottom: 24px;
 }
 
-p {
+.banner-intro {
     color: #FFF;
     text-align: center;
     font-size: 16px;
@@ -83,9 +87,47 @@ p {
 
 .banner-form {
     text-align: center;
-    
+
 }
 
 .banner-user-input {
     padding: 15px 75px 15px 15px;
+    margin-right: 24px;
 }
+
+/* Our Popular Tour Design */
+
+.tour {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.tour-container {
+    display: flex;
+}
+
+.tour-heading {
+    color: #131318;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 150px 50px 0;
+}
+
+.tour-img {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 540px;
+    height: 550px;
+}
+
+/* Why Choose Us Design Part */
+
