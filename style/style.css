@@ -124,10 +124,85 @@ h2 {
 
 .tour-img {
     border-radius: 16px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
     width: 540px;
     height: 550px;
 }
 
 /* Why Choose Us Design Part */
+.choose {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
 
+.choose-intro {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.choose-img-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.choose-img-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 30px;
+}
+
+.choose-img-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-bottom: 2%;
+    padding: 30px;
+}
+
+.choose-img-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+    margin-left: 280px;  
+    margin-bottom: 100px; 
+    padding: 30px;
+}
+
+.choose-image {
+    width: 64px;
+    height: 64px;
+}
+
+.choose-heading {
+    color: #131318;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.choose-img-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
