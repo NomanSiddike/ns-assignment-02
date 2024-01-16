@@ -19,6 +19,12 @@ body {
 }
 
 /* Nav-Bar Design */
+
+.logo {
+    display: flex;
+    gap: 5px;
+}
+
 .web-title {
     color: #131318;
     font-size: 36px;
@@ -63,7 +69,6 @@ span {
     width: 80%;
     height: 500px;
     border-radius: 16px;
-
 }
 
 h2 {
@@ -86,8 +91,13 @@ h2 {
 }
 
 .banner-form {
-    text-align: center;
-
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .banner-user-input {
@@ -129,6 +139,87 @@ h2 {
     height: 550px;
 }
 
+/* Choose your Destination */
+.destination-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.destantion-image {
+
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        'img-1 img-1 img-1 img-2 img-2 img-2'
+        'img-3 img-4 img-4 img-4 img-4 img-5'
+        'img-6 img-6 img-7 img-7 img-7 img-7'
+    ;
+
+}
+
+.destantion-image img {
+    /* width: 400px;
+    height: 200px; */
+}
+
+.destantion-image p {
+    display: flex;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+    
+}
+
+.img-1 {
+    background-image: url('../Images/Rectangle\ 5.png');
+    grid-area: img-1;  
+}
+
+.img-2 {
+    /* background-image: url('../Images/Rectangle\ 8.png'); */
+    grid-area: img-2;
+}
+
+.img-3 {
+    /* background-image: url('../Images/Rectangle\ 6.png'); */
+    grid-area: img-3;
+    margin-right: 6px;
+    /* width: 500px;
+    height: 286px;
+    background-repeat: no-repeat;
+
+    background-position: center; */
+}
+
+.img-4 {
+    /* background-image: url('../Images/Rectangle\ 7.png'); */
+    grid-area: img-4;
+    
+}
+
+.img-5 {
+    /* background-image: url('../Images/Rectangle\ 9.png'); */
+    grid-area: img-5;
+    
+}
+
+.img-6 {
+    /* background-image: url('../Images/Rectangle\ 11.png'); */
+    grid-area: img-6;
+  
+}
+
+.img-7 {
+    /* background-image: url('../Images/Rectangle\ 10.png'); */
+    grid-area: img-7;
+}
+
+
+
+
 /* Why Choose Us Design Part */
 .choose {
     width: 80%;
@@ -136,7 +227,8 @@ h2 {
     margin-top: 100px;
 }
 
-.choose-intro {
+.choose-intro,
+.destination-intro {
     color: #131318;
     text-align: center;
     font-size: 40px;
@@ -144,7 +236,8 @@ h2 {
     margin-bottom: 25px;
 }
 
-.choose-description {
+.choose-description,
+.destination-description {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
@@ -152,6 +245,7 @@ h2 {
     line-height: 26px;
     padding-right: 150px;
     padding-left: 150px;
+    margin-bottom: 50px;
 }
 
 .choose-img-container {
@@ -176,14 +270,19 @@ h2 {
     padding: 30px;
 }
 
+.choose-us-main {
+    display: flex;
+    justify-content: center;
+}
+
 .choose-img-3 {
+
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     width: 50%;
-    margin-left: 280px;  
-    margin-bottom: 100px; 
     padding: 30px;
+    margin-bottom: 100px;
 }
 
 .choose-image {
@@ -205,4 +304,73 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* Newsletter part Design */
+
+.newsletter {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.newslatter-main {
+
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-right {
+    padding: 20px;
+
+}
+
+.newsletter-heading {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 40px auto 16px 40px;
+}
+
+.newsletter-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* padding: 0 10px 0 20px; */
+    padding: 0px 80px 0px 35px;
+}
+
+.newsletter-img {
+    width: 672px;
+    height: 422px;
+}
+
+.form input {
+    width: 393px;
+    height: 52px;
+    border-radius: 10px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 0 20px;
+}
+
+#button {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 15px 45px 15px 30px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
 }
