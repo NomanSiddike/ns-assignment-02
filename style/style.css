@@ -126,6 +126,7 @@ h2 {
     width: 80%;
     margin-left: 10%;
     margin-top: 100px;
+    /* padding: 200px; */
 }
 
 .tour-container {
@@ -361,6 +362,7 @@ h2 {
 .newsletter-img {
     width: 672px;
     height: 422px;
+    position: absolute;
 }
 
 .form input {
@@ -382,6 +384,26 @@ h2 {
     font-size: 16px;
     font-weight: 700;
     width: 100%;
+}
+
+.z-index {
+    color: #FFF;
+    border-radius: 16px;
+    background: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    bottom: -300px;
+    right: 0;
+    left: 250px;
+
+    
+    
 }
 
 /* Review Part Design  */
@@ -445,25 +467,25 @@ h2 {
     margin: 5px 200px;
 }
 
-.social-links{
+.social-links {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    
+
 }
 
-.fa-brands{
+.fa-brands {
     margin: 0 10px;
-} 
+}
 
-hr{
+hr {
     margin: 0 auto 20px auto;
 
     width: 60%;
-    
+
 }
 
-.copyright{
+.copyright {
     text-align: center;
     padding: 10px 0 50px 0;
 }
@@ -729,7 +751,7 @@ hr{
         width: 100%;
     }
 
-    .reviews{
+    .reviews {
         flex-direction: column;
     }
 
